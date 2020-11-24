@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+<script src="https://www.google.com/recaptcha/api.js"></script>
+
+    <meta charset="UTF-8"></meta>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport"></meta>
+    <title>Ejemplo Captcha</title>
+    <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" rel="stylesheet"></link>
+    <link href="css/style.css" rel="stylesheet"></link>	
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+ </head>
+ <body>
+ <div class="container">
+    <div class="row text-center">
+       <div class="col-md-12">
+	   <form action="validacion.php" method="post"> 
+		<div class="row">
+		   <div class="col-md-12">
+			<input name="usuario" placeholder="Usuario" required="" type="text" />
+		   </div>
+		</div>
+		<div class="row">
+		   <div class="col-md-12">
+			<input name="contraseña" placeholder="Contraseña" required="" type="password" />
+		   </div>
+		</div>
+		<div class="g-recaptcha" data-sitekey="6LcIUOMZAAAAAIO7prEItdTojIGpxxz7_GE_i9o8"></div>
+		<div class="row">
+		   <div class="col-md-12">
+			<button class="btn btn-info">Entrar</button>
+		   </div>
+		</div>
+		
+		
+
+This site is protected by reCAPTCHA and the Google
+
+    <a href="https://policies.google.com/privacy">Privacy Policy</a><div><br /></div>
+<div class="g-recaptcha" data-callback="onSubmit" data-sitekey="6LfPUOMZAAAAAAdAJg67h5vjdzXbWrYldCcIX8NS"data-size="invisible">
+</div>
